@@ -13,7 +13,7 @@ public class Turma {
     
     public void ExibirAlunos(){
         for(Alunos a : this.Alunos){
-            System.out.println("\nCod Aluno: "+a.getCodAluno()+" - Nome: "+a.getNome()+"\nNota1: "+a.getNota1()+"\nNota2: "+a.getNota2()+"\nNota3: "+a.getNota3()+"\nNota4: "+a.getNota4()+"\n"+a.ExibirSituaçao());
+            System.out.println("\nCod Aluno: "+a.getCodAluno()+"\nNome: "+a.getNome()+"\nNota1: "+a.getNota1()+"\nNota2: "+a.getNota2()+"\nNota3: "+a.getNota3()+"\nNota4: "+a.getNota4()+"\n"+a.ExibirSituaçao());
         }
     }
 

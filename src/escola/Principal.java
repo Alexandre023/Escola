@@ -23,7 +23,7 @@ public class Principal {
         Alunos a10 = new Alunos();
         
         a1.setCodAluno(1);
-        a1.setNome("Alexande");
+        a1.setNome("Alexandre");
         a1.setNota1(8);
         a1.setNota2(6);
         a1.setNota3(10);
@@ -72,7 +72,7 @@ public class Principal {
         a7.setNota4(9);
         
         a8.setCodAluno(8);
-        a8.setNome("Calos");
+        a8.setNome("Carlos");
         a8.setNota1(5);
         a8.setNota2(8);
         a8.setNota3(8);
@@ -106,12 +106,12 @@ public class Principal {
         t2.addAlunos(a10);
         
         System.out.println("Escola: "+e.getNome());
-        System.out.println("Turmas compostas nesta escola: "+t1.getNomeTurma()+" / "+t2.getNomeTurma());
-        System.out.println("----------\nTurma: "+t1.getNomeTurma());
-        System.out.println("Alunos: ");
+        System.out.println("Turmas compostas nesta escola:\n"+t1.getNomeTurma()+"\n"+t2.getNomeTurma());
+        System.out.println("----------");
+        System.out.println("Turma: "+t1.getNomeTurma());
         t1.ExibirAlunos();
-        System.out.println("----------\nTurma: "+t2.getNomeTurma());
-        System.out.println("Alunos: ");
+        System.out.println("----------");
+        System.out.println("Turma: "+t2.getNomeTurma());
         t2.ExibirAlunos();
     }
     
